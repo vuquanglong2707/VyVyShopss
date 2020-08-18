@@ -1,0 +1,496 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/css/bootstrap.min.css'>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link href="./assets/css/colored-theme.min.css" rel="stylesheet">
+    <script type="text/javascript" src="./assets/js/growl-notification.min.js"></script>
+    <link rel="icon" href="https://is4-ssl.mzstatic.com/image/thumb/Purple113/v4/ee/91/eb/ee91ebc6-f7e6-2fa2-356e-d5930900691b/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/1200x630wa.png">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <title>Template lading page</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="container">
+            <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+                <a href="#section02">
+                    <button class="custom-btn btn-11">Mua ngay<div class="dot"></div></button>
+                </a>
+            </nav>
+        </div>
+    </header>
+
+    <div class="main space-top ">
+        <div class="container">
+            <div class="product-list">
+                <div class="product-show" id="product-show">
+                </div>
+                <a class="prev" onclick="plusSlides(-1)">❮</a>
+                <a class="next" onclick="plusSlides(1)">❯</a>
+                <br>
+                <div class="row justify-content-center" id="product-showslide">
+                </div>
+                <div class="Name-product" id="Name-product">
+                </div>
+                <p>
+                    <b>Gía gốc: </b>
+                    <span id="prices">
+                    
+                    </span>
+                </p>
+                <br>
+                <div style="text-align: center;">
+                    <P class="text-ani">
+                        <span class="ani1">
+                        <span>S</span>
+                        <span>A</span>
+                        <span>L</span>
+                        <span>E</span>
+                        <span> &nbsp</span>
+                        </span>
+                        <span class="ani2" id="price2">
+                            
+                        </span>
+                    </p>
+                    <br>
+                    <form action="">
+
+                    </form>
+                    <br>
+
+                    <a href="#section02">
+                        <button class="custom-btn btn-11">Mua ngay<div class="dot"></div></button>
+                    </a>
+                </div>
+                <br>
+                <br>
+                <div id="captions">
+                </div>
+                <!-- Bs -->
+                <ul class="nav nav-tabs" role="tablist">
+                    <li class="nav-item">
+                        <a class="nav-link active" data-toggle="tab" href="#tabs-1" role="tab"><b>Đánh giá</b> </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="tab" href="#tabs-2" role="tab"><b>Chi tiết</b> </a>
+                    </li>
+                </ul>
+                <!-- Tab panes -->
+                <div class="tab-content">
+                    <div class="tab-pane active" id="tabs-1" role="tabpanel">
+                        <div class="container-fluid px-1 py-5 mx-auto">
+                            <div class="row justify-content-center">
+                                <div class="col-xl-7 col-lg-8 col-md-10 col-12 text-center mb-5">
+                                    <div class="card">
+                                        <div class="row justify-content-left d-flex">
+                                            <div class="col-md-4 d-flex flex-column">
+                                                <div class="rating-box">
+                                                    <h1 class="pt-4">4.0</h1>
+                                                    <p class="">trên 5</p>
+                                                </div>
+                                                <div> <span class="fa fa-star star-active mx-1"></span>
+                                                    <span class="fa fa-star star-active mx-1"></span>
+                                                    <span class="fa fa-star star-active mx-1"></span>
+                                                    <span class="fa fa-star star-active mx-1"></span>
+                                                    <span class="fa fa-star star-inactive mx-1"></span>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-8">
+                                                <div class="rating-bar0 justify-content-center">
+                                                    <table class="text-left mx-auto">
+                                                        <tr>
+                                                            <td class="rating-label">Rất tốt</td>
+                                                            <td class="rating-bar">
+                                                                <div class="bar-container">
+                                                                    <div class="bar-5"></div>
+                                                                </div>
+                                                            </td>
+                                                            <td class="text-right">123</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="rating-label">Tốt</td>
+                                                            <td class="rating-bar">
+                                                                <div class="bar-container">
+                                                                    <div class="bar-4"></div>
+                                                                </div>
+                                                            </td>
+                                                            <td class="text-right">23</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="rating-label">Trung bình</td>
+                                                            <td class="rating-bar">
+                                                                <div class="bar-container">
+                                                                    <div class="bar-3"></div>
+                                                                </div>
+                                                            </td>
+                                                            <td class="text-right">10</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="rating-label">Tệ</td>
+                                                            <td class="rating-bar">
+                                                                <div class="bar-container">
+                                                                    <div class="bar-2"></div>
+                                                                </div>
+                                                            </td>
+                                                            <td class="text-right">3</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="rating-label">Rất tê</td>
+                                                            <td class="rating-bar">
+                                                                <div class="bar-container">
+                                                                    <div class="bar-1"></div>
+                                                                </div>
+                                                            </td>
+                                                            <td class="text-right">0</td>
+                                                        </tr>
+                                                    </table>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card">
+                                        <div class="row flex">
+                                            <div class="" style="margin:0 auto;"> <img class="profile-pic" src="https://tenhaynhat.com/wp-content/uploads/2019/06/Cha-Eun-Woo-1.jpg"> </div>
+                                            <div class="">
+                                                <h3 class="">Phan Hải</h3>
+                                                <div>
+                                                    <p class="text-left"><span class="text-muted">4.0</span> <span class="fa fa-star star-active ml-3"></span> <span class="fa fa-star star-active"></span> <span class="fa fa-star star-active"></span> <span class="fa fa-star star-active"></span>                                                        <span class="fa fa-star star-inactive"></span></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row text-left">
+                                            <h4 class="blue-text mt-3">"Sản phẩm đúng như mẫu"</h4>
+                                            <p class="content">Cảm ơn shop nhiều. Sẽ ủng hộ shop nhiều hơn nữa!</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane " id="tabs-2" role="tabpanel">
+
+                        <div class="detail ">
+                            <div class="name__detail">
+                                <p>Mã sản phẩm:</p>
+                            </div>
+                            <div class="info__detail" id="ProductId">
+
+                            </div>
+                        </div>
+                        <div class="detail ">
+                            <div class="name__detail">
+                                <p>Mã biến thể:</p>
+                            </div>
+                            <div class="info__detail" id="VariantId">
+
+                            </div>
+                        </div>
+                        <div class="detail ">
+                            <div class="name__detail">
+                                <p>Định lượng:</p>
+                            </div>
+                            <div class="info__detail" id="Quantity">
+
+                            </div>
+                        </div>
+                        <div class="detail ">
+                            <div class="name__detail">
+                                <p>Cân nặng:</p>
+                            </div>
+                            <div class="info__detail" id="Weight">
+
+                            </div>
+                        </div>
+                        <div class="detail ">
+                            <div class="name__detail">
+                                <p>Gia:</p>
+                            </div>
+                            <div class="info__detail" id="Price">
+
+                            </div>
+                        </div>
+                        <div class="detail ">
+                            <div class="name__detail">
+                                <p>Tiền mặt:</p>
+                            </div>
+                            <div class="info__detail" id="Money">
+
+                            </div>
+                        </div>
+                        <div class="detail">
+                            <div class="name__detail">
+                                <p>Danh mục:</p>
+                            </div>
+                            <div class="info__detail" id="categories">
+
+                            </div>
+                        </div>
+                        <div class="detail ">
+                            <div class="name__detail">
+                                <p>Thương hiệu:</p>
+                            </div>
+                            <div class="info__detail">
+                                <p></p>
+                            </div>
+                        </div>
+                        <div class="detail ">
+                            <div class="name__detail">
+                                <p>Chất liệu:</p>
+                            </div>
+                            <div class="info__detail">
+                                <p></p>
+                            </div>
+                        </div>
+
+                        <div class="detail ">
+                            <div class="name__detail">
+                                <p>Xuất xứ:</p>
+                            </div>
+                            <div class="info__detail">
+                                <p></p>
+                            </div>
+                        </div>
+
+                        <div class="detail ">
+                            <div class="name__detail">
+                                <p>Gửi từ:</p>
+                            </div>
+                            <div class="info__detail">
+                                <p></p>
+                            </div>
+                        </div>
+                        <div class="detail ">
+                            <div class="name__detail">
+                                <p>Mô tả sản phẩm:</p>
+                            </div>
+                            <div class="info__detail">
+                                <p></p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <h2>Khuyến mãi còn lại</h2>
+            <div id="count-clock1"></div>
+        </div>
+    </div>
+
+    <div class="moreinfo">
+        <div class="container ">
+            <div id="videoinfo">
+            </div>
+            <h2>Ưu điểm nổi bật</h2>
+            <hr style="height: 1px; background-color: black;">
+            <div class="info-element ">
+                <div class="info ">
+                    <div class="shape ">
+                        <i class="far fa-check-circle"></i>
+                    </div>
+                    <div class="paragraph ">
+                        <p>Cam kết hàng chính hãng</p>
+                    </div>
+                </div>
+                <div class="info">
+                    <div class="shape ">
+                        <i class="far fa-check-circle"></i>
+                    </div>
+                    <div class="paragraph ">
+                        <p>Mua hàng siêu ưu đãi </p>
+                    </div>
+                </div>
+                <div class="info">
+                    <div class="shape ">
+                        <i class="far fa-check-circle"></i>
+                    </div>
+                    <div class="paragraph ">
+                        <p>Bảo hành 1 đổi 1 trong vòng 1 tuần</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row " id="bonus">
+
+            </div>
+            <div class="ani-action">
+                <a href="#section02">
+                    <button class="custom-btn btn-11">Mua ngay<div class="dot"></div></button>
+                </a>
+            </div>
+            <h2>Chính sách khách hàng</h2>
+            <hr style="height: 1px; background-color: black;">
+            <div class="row policy">
+                <div class="col-xl-4.col-lg-4 col-md-4 .col-sm-4 col-12 more-img">
+                    <i class="fas fa-sync-alt"></i>
+                    <p> 1 đổi 1 trong 7 ngày nếu có lỗi do nhà sản xuất.</p>
+                </div>
+                <div class="col-xl-4.col-lg-4 col-md-4 .col-sm-4 col-12 more-img">
+                    <i class="fas fa-user"></i>
+                    <p> Nhân viên tư vấn tận tình, chuyên nghiệp.</p>
+                </div>
+                <div class="col-xl-4.col-lg-4 col-md-4 .col-sm-4 col-12 more-img">
+                    <i class="fas fa-check-circle"></i>
+                    <p> Khách kiểm tra nhận hàng tại chỗ.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="form-info">
+        <div class="container">
+            <div class="wrap promotion" id="section02">
+
+            </div>
+            <div class="wrap" id="">
+                <h2 style="font-size: 1.5em;">Thông tin cá nhân</h2>
+                <hr style=" height: 1px; background-color: black; ">
+                <div class="was-validated ">
+                    <div class="form-group row" id="cart-product">
+                        <select class="form-control col-xl-4.col-lg-4 col-md-4 .col-sm-4 col-4" id="color" name="sellist1">
+                            <option >Màu sắc</option>
+                        </select>
+                        <select class="form-control col-xl-4.col-lg-4 col-md-4 .col-sm-4 col-4" id="size" name="sellist1">
+                            <option>Size</option>
+                        </select>
+                        <input class="form-control col-xl-4.col-lg-4 col-md-4 .col-sm-4 col-4 soluong" type="number" id="soluong" placeholder="Số lượng" name="soluong" min="1" max="20">
+                    </div>
+                    <br>
+                    <div class="form-group ">
+                        <input type="text" class="form-control" id="dongia" placeholder="Đơn giá" disabled style="margin: 0;">
+                    </div>
+                    <div class="form-group ">
+                        <input type="text" class="form-control" id="thanhtien" placeholder="Thành tiền" disabled>
+                    </div>
+
+                    <div class="form-group ">
+                        <input type="text " class="form-control name" id="name " placeholder="Họ Và tên " name="name " required>
+                    </div>
+                    <div class="form-group ">
+                        <input type="text " class="form-control phone-number" id="phone-number " placeholder="Số điện thoại " name="phone-number " required>
+                    </div>
+                    <div class="form-group ">
+                        <select class="form-control tinhthanh" id="tinhthanh">
+                            <option >Tỉnh/Thành phố</option>
+                        </select>
+                    </div>
+                    <div class="form-group ">
+                        <select class="form-control " id="quanhuyen">
+                            <option >Quận/huyện</option>
+                        </select>
+                    </div>
+                    <div class="form-group ">
+                        <select class="form-control " id="xaphuong">
+                            <option value="">Xã/Phường</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group ">
+                        <input type="text " class="form-control diachi" id="diachi " placeholder="Địa chỉ " name="diachi " required>
+                    </div>
+                    <a href="#section02 ">
+                        <button class="custom-btn btn-11 submit">Mua ngay<div class="dot "></div></button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- <h2 style="font-size: 1.5em;">Thời gian khuyến mãi còn</h2>
+    <div id="count-clock2"></div> -->
+
+    <!-- Please Subscribe My Youtube Channel
+https://www.youtube.com/channel/UCQM5ye1xR4vJgtga0ryud2Q/
+-->
+    <footer id="footer " class="footer-1 ">
+        <div class="main-footer widgets-dark typo-light ">
+            <div class="container ">
+                <div class="row ">
+
+                    <div class="col-xs-12 col-sm-6 col-md-3 ">
+                        <div class="widget subscribe no-box ">
+                            <h5 class="widget-title ">Liên hệ<span></span></h5>
+                            <p>Địa chỉ: Tòa nhà CT1A, Khu đô thị thành phố Giao Lưu, Phạm Văn Đồng, Cổ Nhuế 1, Bắc Từ Liêm, Hà Nội </p>
+                            <p>Tel:0813 568 333</p>
+                            <p>Email:admin@vveco.vn</p>
+                        </div>
+                    </div>
+
+                    <div class="col-xs-12 col-sm-6 col-md-3 ">
+                        <div class="widget no-box ">
+                            <h5 class="widget-title ">LIÊN KẾT NHANH<span></span></h5>
+                            <ul class="thumbnail-widget ">
+                                <li>
+                                    <div class="thumb-content "><a href="#. ">Trang chủ</a></div>
+                                </li>
+                                <li>
+                                    <div class="thumb-content "><a href="#. ">Sản phẩm</a></div>
+                                </li>
+                                <li>
+                                    <div class="thumb-content "><a href="#. ">Bài viết</a></div>
+                                </li>
+                                <li>
+                                    <div class="thumb-content "><a href="#. ">Điều khoản dịch vụ</a></div>
+                                </li>
+                                <li>
+                                    <div class="thumb-content "><a href="#. ">Chính sách đổi trả</a></div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-xs-12 col-sm-6 col-md-3 ">
+                        <div class="widget no-box ">
+                            <h5 class="widget-title ">TÀI KHOẢN<span></span></h5>
+                            <p>Tài khoản của tôi</p>
+                            <a class="btn " href="#. " target="_blank ">Giỏ hàng</a>
+                        </div>
+                    </div>
+
+                    <div class="col-xs-12 col-sm-6 col-md-3 ">
+
+                        <div class="widget no-box ">
+                            <h5 class="widget-title ">ĐĂNG KÝ THEO DÕI THỜI TRANG VVECO !<span></span></h5>
+                            <ul class="social-footer2 ">
+                                <li class=" ">
+                                    <a title="youtube " target="_blank " href="https://www.youtube.com/ "><i class="fab fa-youtube "></i></a>
+                                </li>
+                                <li class=" ">
+                                    <a href="https://www.facebook.com/ " target="_blank " title="Facebook "><i class="fab fa-facebook-square "></i></a>
+                                </li>
+                                <li class=" ">
+                                    <a href="https://twitter.com " target="_blank " title="Twitter "><i class="fab fa-twitter "></i></a>
+                                </li>
+                                <li class=" ">
+                                    <a title="instagram " target="_blank " href="https://www.instagram.com/ "><i class="fab fa-instagram-square "></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.0.8/popper.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/js/bootstrap.min.js'></script>
+    <script src='https://cdn.rawgit.com/vuejs/vue/v1.0.24/dist/vue.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.15.1/moment.min.js'></script>
+    <script src="./assets/js/script.js "></script>
+    <script src="./assets/js/custom.js"></script>
+    <script src="./assets/js/count_aclock.js"></script>
+    <script src="./assets/js/add.js"></script>
+</body>
+
+</html>
